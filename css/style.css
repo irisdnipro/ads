@@ -1,0 +1,606 @@
+ сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+
+/*Обшие стили - для всего документа*/
+body {
+	font-family: SF UI Display, Arial, San-Serif;
+	font-size: 100%;
+	background: url("../imgs/fon.png"); 
+	background-size: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none; /*Позбуваємося кружечка*/
+
+}
+a {
+	text-decoration: none;/*Позбуваємося нижньго підкреслення*/
+
+}
+/* Панель навигації*/
+
+header {
+	margin-left: 200px;
+	width: 80%;
+	margin-top: -10px;
+	font-size: 17px;
+	border-radius: 0 0 7px 7px;
+	height: 60px;
+	border: 1px solid grey;
+	background: radial-gradient(600% 400px, #ffffff, #777473);
+}
+/*Підменю*/
+.page-navigation li ul {
+	position: absolute;
+	min-width: 150px;
+	display: none;
+
+}
+.page-navigation li:hover > ul {
+	display: block;
+}
+.page-navigation li > ul li {
+	border: 1px solid lightgrey;
+	float: none;
+	border-radius: 3px;
+}
+.page-navigation li > ul li a {
+	padding: 10px;
+	text-transform: none;
+	background: #fbf8f8;
+}
+
+
+.page-navigation li {
+	float: left;
+	
+}
+.page-navigation li a:hover {
+	color: #1c94c4;/* при наведенні стає голубий колір*/
+	
+}
+.page-navigation a {
+  display: block;
+  color: #5a5a5a;
+  
+}
+.flag {
+	width: 28px;
+	float: left;
+	margin:-1px 8px auto 1px;
+}
+a.str9660:after {
+content:'\25BC';/*трикутничок*/
+color: grey;
+}
+/*Подменю*/
+.nav {
+	outline: none;
+}
+
+.li2,.li3,.li4,.li5,.poshuk,.li8,.li6,.li9,.li7 {
+	padding: 17px 0;
+}
+
+.li1 {
+	margin-top: 2px;
+	margin-left: 8px;
+}
+.li2 {
+	font-size: 20px;
+	margin-left: 18px;
+}
+.li3 {
+	padding-top: 20px;
+	width: 80px;
+	margin-left: 70px;
+} 
+.li4, .li5 {
+	padding-top: 20px;
+	width: 80px;
+	margin-left: 50px;
+} 
+.poshuk {
+	margin-left: 120px;
+	
+}
+ input[type="text"] {
+	padding: 5px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+	/*/Панель навигации
+*/
+.li8, .li6 {
+	margin-left: 60px;
+}
+
+.li9, .li7 {
+	padding-top: 20px;
+	margin-left: 5px;
+}
+span {
+	color: #1c94c4;
+}
+/* кінець Панель навигації
+/*Блок 1*/
+
+.conteiner1{
+	margin: 20px auto auto 330px;
+	
+}
+.conteiner2{
+	margin: 312px auto auto 330px;
+	
+}
+
+.blok1,
+.blok2,
+.blok3 {
+	border-radius: 7px;
+	height: 270px;
+	border: 1px solid grey;
+	float: left;
+	width: 230px; 
+	margin: 10px;
+	box-shadow: 0 7px 8px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); /*тінь від карток*/
+	background-color: #fbf8f8;
+	
+}
+h3{
+	margin-top: 10px;
+	 color: #0f4a8c;
+	
+	font-size: 20px;
+	text-align: center;
+	
+}
+.img1{
+	margin-top: -15px; 
+	width: 59px;
+	padding-left: 70px;
+}
+.img2{
+	margin-top: 1px; 
+	width: 80px;
+	padding-left: 62px;
+}
+.img3{
+	margin-top: 7px; 
+	width: 82px;
+	padding-left: 62px;
+}
+.img4{
+	margin-top: -12px; 
+	width: 90px;
+	padding-left: 53px;
+}
+.img5{
+	margin-top: 0px; 
+	width: 68px;
+	padding-left: 65px;
+}
+.img6{
+	margin-top: -1px; 
+	width: 60px;
+	padding-left: 73px;
+}
+.blok4 {
+	border-radius: 7px;
+	height: 270px;
+	float: left;
+	width: 280px; 
+	margin: 7px; 
+	margin-left: 25px;
+}
+.zagolovok {
+	float: left;
+	height: 130px;
+	width: 90%;
+	border: 1px solid grey;
+	border-radius: 7px;
+	margin: 10px;
+}
+
+.perelic {
+	height: auto;
+	float: left;
+	width: 90%;
+	margin: 5px auto auto 22px;
+}
+ a:hover {
+ 	color: #1c94c4;
+	/*color: #5a5a5a;*/
+	}
+
+
+a {
+	color: #0f4a8c;
+	/*color: #1c94c4;*/
+}
+/*/Блок 1*/
+.stroka{
+	margin-top: 630px;
+	height: 28px;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 17px;
+	background-color: #fbf8f8; 
+	border: 1px solid grey;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 4px;
+	background: radial-gradient(500% 100px, #ffffff, #777473);
+}
+
+.buttonlarg {
+	width: 280px;
+	height: 50px;
+	background-color: #0085f4;
+	color: white;
+	font-size: 20px;
+	border-radius: 7px;
+}
+.conteiner3 {
+	margin: 60px auto 30px 325px;color: grey;
+}
+/*Останні оголошення*/
+.blok_ogol {
+	width: 290px;
+	height: 200px;
+	float: left;
+	margin-left: 15px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-left: 5px;
+	background-color: #f5f7f9; 
+	}	
+	.block_blocka {
+	margin: 5px 7px auto 7px;
+	}	
+.leftfoto {
+	width: 130px;
+	float:left;
+	margin: 10px 10px 2px 2px;
+}
+.text1 {
+	margin-left: 10px;
+	font-size:14px;
+	color: #525457; /*темно-сірий колір тексту*/
+}
+
+/*/Останні оголошення*/
+
+/*Smal menu*/
+.smal_menu li {
+	/*float: left;*/
+	display: inline-block;
+	border: 1px solid grey;
+	padding: 7px 40px; /*розмір кнопки*/
+	margin: 0 23px; /*відстань*/
+	border-radius: 7px;
+	background-color: #fbf8f8;/*молочний*/
+	box-shadow: 0 2px 3px rgba(0,0,0,0.15), 0 5px 5px rgba(0,0,0,0.16); /*тінь*/
+	background: radial-gradient(150% 200px, #ffffff, #777473);
+}
+.smal_menu li a:hover {
+	color: #1c94c4;/* при наведенні стає голубий колір*/
+	}
+.smal_menu li a {
+	color: #5a5a5a; /*синій*/
+}
+.smal_menu {
+	margin: 330px auto auto 200px;
+}
+/*/Smal menu*/
+
+/*Соцмережі*/
+.social  {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%; 
+	display: inline-block;
+	border: 2px solid #6a665c;
+	margin-right: 10px;
+	background-color: #bdc3c7;
+}
+.social,.fb
+ {
+	text-align: center;
+	margin-top: 10px;
+}
+.pin {
+	margin-top: 8px;
+}
+.ins {
+	margin-top: 5px;
+}
+/*/Соцмережі*/
+
+footer {
+	padding-top: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 17px;
+}
+@media (max-width: 1383px){
+	header{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.conteiner1,
+	.conteiner2,
+	.conteiner3,
+	.stroka,
+	.smal_menu {
+	margin-left: 180px; 
+		/*margin: 20px auto auto 330px;*/
+		/*margin: 0 auto;*/
+	}
+	@media (max-width: 1300px){
+	header{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.page-navigation ul li{
+	margin-left: 35px;
+
+	}
+}
+@media (max-width: 1263px){
+	.conteiner1,
+	.conteiner2,
+	.conteiner3,
+	.stroka,
+	.smal_menu,
+	footer {
+		margin-left: 80px; 
+	}
+}
+@media (max-width: 1207px){
+
+	.page-navigation ul li{
+	margin-left: 25px;
+
+	}
+}
+@media (max-width: 1163px){
+.conteiner1,
+	.conteiner2,
+	.conteiner3,
+	.stroka,
+	.smal_menu,
+	footer {
+		margin-left: 50px; 
+	}
+}
+@media (max-width: 1133px){
+.conteiner1,
+	.conteiner2,
+	.conteiner3,
+	.stroka,
+	.smal_menu,
+	footer {
+		margin-left: 20px; 
+	}
+}
+@media (max-width: 1024px){
+
+	header{
+		width: 100%;
+		margin-left: 0 auto;
+		
+	}
+	
+	.li1 {
+		position: absolute;
+		left: -7px;
+	}
+
+	.li2 {
+		position: absolute;
+		left: 59px;
+	}
+	#dn {
+		position: absolute;
+		left: 130px;
+		bottom: 17px;
+	}
+	
+	.li3 {
+		position: absolute;
+		left: 290px;
+	}
+	.li4 {
+		position: absolute;
+		left: 380px;
+	}
+	.li5 {
+		position: absolute;
+		left: 470px;
+		display: none;
+	}
+	.poshuk {
+		position: absolute;
+		right: 380px;
+	}
+	.li6 {
+		position: absolute;
+		right: 180px;
+	}
+	.li7 {
+		position: absolute;
+		right: 150px;
+	}
+	.li8 {
+		position: absolute;
+		right: 50px;
+	}
+	.li9 {
+		position: absolute;
+		right: 20px;
+	}
+	.conteiner1,
+	.conteiner2,
+	.conteiner3,
+	.stroka,
+	.smal_menu
+	footer {
+		
+		margin-left: 0px; 
+	}
+	
+.position1 {
+	position: relative;
+	top: -297px;
+	
+}
+.position2 {
+	position: relative;
+	top: -312px;
+	right: 250px;
+}
+	}
+	.blok4 { /*кнопка подати оголошення*/
+		
+		margin-left: 30px;
+		position: relative;
+		top: -295px;
+
+	}
+	.ogol_en {
+		position: relative;
+		top: -215px;
+	}
+
+	.smal_menu li{
+	position: relative;
+	left: -320px;
+	}
+	li.articl {
+		position: relative;
+		bottom: 35px;
+		left: 235px;
+	}
+	.share {
+		position: relative;
+		bottom: 30px;
+		right: 280px;
+	}
+	}
+@media (max-width: 1104px){
+	.page-navigation ul li{
+		width: 5%;
+	}
+	.conteiner1 {
+		display: inline-block;
+		width: 100%;
+	}
+}
+
+@media (min-width: 480px) and (max-width:961px) {
+	header{
+		width: 65%; 
+		display: inline-block;
+		margin-top: -10px;
+		
+	}
+	
+	.li3, .li4, .li5,.poshuk,.li6,.li7,.li8,.li9  {
+		display: none;
+		}
+	
+	.li7 {
+		position: relative;
+		top: 151px;
+		left: 220px;
+		font-size: 23px;
+		}
+	
+	.blok4 { /*подати оголошення*/
+		width: 200px;
+		position: relative;
+		top: 860px;
+		left: 0px;
+		}	
+	.blok1	{
+		position: relative;
+		top: -15px;
+		left: 20px;
+	}
+	.blok11 {
+		position: relative;
+		top: -295px;
+	}
+	.blok12 {
+		position: relative;
+		top: -295px;
+	}
+	.position2 {
+		position: relative;
+		top: -295px;
+	}
+	.smal_menu {
+		position: relative;
+		right: 2px;
+	}
+	.stroka {
+		width: 180%;
+		position: relative;
+		top: 880px;
+		left: -320px;
+	}
+
+.conteiner3 {
+	position: relative;
+		bottom: 450px;
+}
+.gol {
+		display: none;
+	}
+	.call {
+		display: none;
+	}
+	.call,.gol,.pod,.tov {
+		display: none;
+	}
+	footer {
+		width: 90%;
+		position: relative;
+		bottom: 750px;
+	}
+	
+}
+	
